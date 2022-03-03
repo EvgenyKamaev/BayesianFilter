@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "80a3f1e0-55d2-4d98-9ead-aa63d188a45d": {
+      "ProjectGuid": "80a3f1e0-55d2-4d98-9ead-aa63d188a45d",
+      "DisplayName": "BayesianFilter.Web",
+      "ColorIndex": 0
+    },
+    "dca35bc7-07a9-471f-9c99-09d7c1d6fca7": {
+      "ProjectGuid": "dca35bc7-07a9-471f-9c99-09d7c1d6fca7",
+      "DisplayName": "BayesianFilter.Core",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

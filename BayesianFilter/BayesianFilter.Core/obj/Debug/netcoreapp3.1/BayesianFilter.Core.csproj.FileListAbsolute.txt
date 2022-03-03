@@ -1,0 +1,9 @@
+D:\Projects\BayesianFilter\BayesianFilter\BayesianFilter.Core\bin\Debug\netcoreapp3.1\BayesianFilter.Core.deps.json
+D:\Projects\BayesianFilter\BayesianFilter\BayesianFilter.Core\bin\Debug\netcoreapp3.1\BayesianFilter.Core.dll
+D:\Projects\BayesianFilter\BayesianFilter\BayesianFilter.Core\bin\Debug\netcoreapp3.1\BayesianFilter.Core.pdb
+D:\Projects\BayesianFilter\BayesianFilter\BayesianFilter.Core\obj\Debug\netcoreapp3.1\BayesianFilter.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\BayesianFilter\BayesianFilter\BayesianFilter.Core\obj\Debug\netcoreapp3.1\BayesianFilter.Core.AssemblyInfoInputs.cache
+D:\Projects\BayesianFilter\BayesianFilter\BayesianFilter.Core\obj\Debug\netcoreapp3.1\BayesianFilter.Core.AssemblyInfo.cs
+D:\Projects\BayesianFilter\BayesianFilter\BayesianFilter.Core\obj\Debug\netcoreapp3.1\BayesianFilter.Core.csproj.CoreCompileInputs.cache
+D:\Projects\BayesianFilter\BayesianFilter\BayesianFilter.Core\obj\Debug\netcoreapp3.1\BayesianFilter.Core.dll
+D:\Projects\BayesianFilter\BayesianFilter\BayesianFilter.Core\obj\Debug\netcoreapp3.1\BayesianFilter.Core.pdb

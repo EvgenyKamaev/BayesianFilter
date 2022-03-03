@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BayesianFilter.Web</name>
+    </assembly>
+    <members>
+        <member name="T:BayesianFilter.Web.Controllers.FilterController">
+            <summary>
+            Контроллер фильтра
+            </summary>
+        </member>
+        <member name="M:BayesianFilter.Web.Controllers.FilterController.#ctor(BayesianFilter.Core.Services.Interfaces.IBayesianService)">
+            <summary>
+            Конструктор
+            </summary>
+            <param name="bayesianService"></param>
+        </member>
+        <member name="M:BayesianFilter.Web.Controllers.FilterController.Check(System.String)">
+            <summary>
+            Проверка строки по алгоритму Байеса
+            </summary>
+            <param name="targetString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BayesianFilter.Web.Controllers.FilterController.AddSpams(BayesianFilter.Web.Models.AddSpamsModel)">
+            <summary>
+            Добавить в "черный" список
+            </summary>
+            <param name="spams"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BayesianFilter.Web.Controllers.FilterController.AddHams(BayesianFilter.Web.Models.AddHamsModel)">
+            <summary>
+            Добавить в "белый" список
+            </summary>
+            <param name="hams"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BayesianFilter.Web.Controllers.FilterController.AddException(System.String)">
+            <summary>
+            Добавить в список исключений
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BayesianFilter.Web.Controllers.FilterController.DeleteException(System.Int32)">
+            <summary>
+            Удалить из списка исключений
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BayesianFilter.Web.Controllers.FilterController.GetExceptionsPage(System.Int32,System.Int32)">
+            <summary>
+            Постраничный вывод исключений
+            </summary>
+            <param name="page"></param>
+            <param name="pageSize"></param>
+        </member>
+        <member name="T:BayesianFilter.Web.Models.AddHamsModel">
+            <summary>
+            Модель на добавление "белого" списка
+            </summary>
+        </member>
+        <member name="P:BayesianFilter.Web.Models.AddHamsModel.Hams">
+            <summary>
+            Белый список
+            </summary>
+        </member>
+        <member name="T:BayesianFilter.Web.Models.AddSpamsModel">
+            <summary>
+            Модель на добавление "черного" списка
+            </summary>
+        </member>
+        <member name="P:BayesianFilter.Web.Models.AddSpamsModel.Spams">
+            <summary>
+            Черный список
+            </summary>
+        </member>
+        <member name="T:BayesianFilter.Web.Models.CheckResponseModel">
+            <summary>
+            Модель ответа проверки строки
+            </summary>
+        </member>
+        <member name="P:BayesianFilter.Web.Models.CheckResponseModel.Result">
+            <summary>
+            Значение проверки
+            </summary>
+        </member>
+        <member name="P:BayesianFilter.Web.Models.CheckResponseModel.Message">
+            <summary>
+            Текст сообщения
+            </summary>
+        </member>
+        <member name="T:BayesianFilter.Web.Models.ExceptionResponseModel">
+            <summary>
+            Модель ответа добавления исключения
+            </summary>
+        </member>
+        <member name="P:BayesianFilter.Web.Models.ExceptionResponseModel.Id">
+            <summary>
+            Id записи
+            </summary>
+        </member>
+        <member name="P:BayesianFilter.Web.Models.ExceptionResponseModel.CreatedDate">
+            <summary>
+            Дата создания
+            </summary>
+        </member>
+        <member name="P:BayesianFilter.Web.Models.ExceptionResponseModel.Subject">
+            <summary>
+            Добавленное значение
+            </summary>
+        </member>
+        <member name="T:BayesianFilter.Web.Models.InsertResponseModel">
+            <summary>
+            Модель ответа добавления "черного/белого" списка
+            </summary>
+        </member>
+        <member name="P:BayesianFilter.Web.Models.InsertResponseModel.Inserted">
+            <summary>
+            Кол-во добавленных записей
+            </summary>
+        </member>
+        <member name="T:BayesianFilter.Web.Models.PageResponseModel">
+            <summary>
+            Модель ответа получения страницы исключений
+            </summary>
+        </member>
+        <member name="P:BayesianFilter.Web.Models.PageResponseModel.Exceptions">
+            <summary>
+            Список исключений
+            </summary>
+        </member>
+        <member name="P:BayesianFilter.Web.Models.PageResponseModel.Page">
+            <summary>
+            Текущая страница
+            </summary>
+        </member>
+        <member name="P:BayesianFilter.Web.Models.PageResponseModel.TotalPageCount">
+            <summary>
+            Всего страниц
+            </summary>
+        </member>
+        <member name="P:BayesianFilter.Web.Models.PageResponseModel.TotalExceptionsCount">
+            <summary>
+            Всего исключений
+            </summary>
+        </member>
+        <member name="T:BayesianFilter.Web.Models.ResponseModel">
+            <summary>
+            Базовый класс для ответа
+            </summary>
+        </member>
+        <member name="P:BayesianFilter.Web.Models.ResponseModel.StatusCode">
+            <summary>
+            Код статуса
+            </summary>
+        </member>
+        <member name="P:BayesianFilter.Web.Models.ResponseModel.Message">
+            <summary>
+            Описание
+            </summary>
+        </member>
+    </members>
+</doc>
